@@ -1,0 +1,25 @@
+[2022-04-29 10:19:17.910] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-29 10:19:18.292] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-29 10:19:18.335] [renderer1] [error] ["Error: Unknown or unsupported transport “disabled” for address “disabled:”"]
+[2022-04-29 10:19:18.336] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-04-29 10:19:28.036] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-29 10:19:28.446] [renderer1] [error] ["Error: Unknown or unsupported transport “disabled” for address “disabled:”"]
+[2022-04-29 10:19:28.446] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2022-04-29 10:19:28.539] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-29 10:19:31.170] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-29 15:30:31.263] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-29 15:30:32.616] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-29 15:30:55.465] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-29 15:31:06.950] [renderer1] [error] Invalid string length: RangeError: Invalid string length
+    at S.getValueInRange2 (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:183:8599)
+    at S.getValueInRange (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:183:7857)
+    at v.getValueInRange (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:190:2932)
+    at Function._computeEdits (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:739:889)
+    at S.updateModel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:739:35)
+    at ji.updateTextEditorModel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1727:15663)
+    at ji.doUpdateTextModel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2661:68268)
+    at ji.resolveFromContent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2661:67823)
+    at ji.resolveFromFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2661:66933)
+    at async u.doResolve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2666:104975)
+    at async u.reload (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2666:104248)
+    at async Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2666:102315)
