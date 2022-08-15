@@ -13,7 +13,7 @@ This Python 3 library provides a parser for the raw data stored by bitcoind.
 ### Using pip
 
 ```
-pip install blockchain-parser
+pip install HPCC_blockchain_parser
 ```
 
 ### Using source
@@ -104,5 +104,10 @@ for block in blockchain.get_ordered_blocks(os.path.expanduser('~/.bitcoin/blocks
     print("height=%d block=%s" % (block.height, block.hash))
 ```
 
+To run the examples/create_temp_graph.py code we have 2 arguments,the first one is the path to bitcoin blocks, the second is the regex that the file names follow for eg:-
+
+```
+python3 HPCC_bitcoin_parser.examples.create_temp_graph.py /home/user/blocks bitcoinraw.1_of_[0-9]+
+```
 **NOTE**: You must manually/programmatically delete the cache file in order to rebuild the cache. Don't forget to do this each time you would like to re-parse the blockchain with a higher block height than the first time you saved the cache file as the new blocks will not be included in the cache.
 
